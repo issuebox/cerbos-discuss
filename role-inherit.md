@@ -1,3 +1,5 @@
+Combined with https://play.cerbos.dev/p/BOjBdsZv7Flz62a9abc4NNkxN1Rm9LSc
+
 To check if a person can read an article, I have two ways:
 
 ## The first way
