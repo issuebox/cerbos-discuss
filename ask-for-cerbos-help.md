@@ -48,7 +48,7 @@ I have a slightly complex system and I don't know how to implement it, hope you 
 * `channel_id`
 * `role`: the role of channel, value is `owner`、`admin`、`editor`、`member` or `guest`
 
-## desire
+## at last
 I hope you can help me sort out how the permission system of this system should be designed. This is a kind of problem for me and has been bothering me for a long time. I've been learning cerbos for about a week and am familiar with the basic concepts and usage, but a system like this is a bit complicated for me. If possible, I hope you can help me achieve it completely.The relevant naming can be defined according to your own understanding and then implemented in the playground. I know my request is a bit excessive and I am willing to pay accordingly.
 
 
