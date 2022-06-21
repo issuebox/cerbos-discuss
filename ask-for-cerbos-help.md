@@ -15,8 +15,8 @@ I have a slightly complex system and I don't know how to implement it, hope you 
     * `owner` can let other users of `demosite` join to the organization and set their role to `admin` or `member`
     * The difference between `owner` and `admin` is: the `owner` can delete `admin` from the organization, but `admin` cannot delete `owner`
     * `owner` and `admin` can Create/Read/Update/Delete organization
-    * `owner` and `admin` can create `channel` under the `organization`
-    * the `member` only can read the organization and view the organization's channels info.
+    * `owner` and `admin` can `Create` channel and `Read` the organization's channels info.
+    * the `member` can only read the organization and view the organization's channels info.
     * inheritance relationship is: member -> admin -> owner
     
 * There are five roles of every channel: `owner`、`admin`、`editor`、`member`、`guest`
@@ -24,9 +24,9 @@ I have a slightly complex system and I don't know how to implement it, hope you 
     *  `owner` can let other users (of the organization parent) join to the channel and set their role to `admin`、`editor`、 `member` or `guest`
     *  The difference between `owner` and `admin` is: the `owner` can delete `admin` from the organization, but `admin` cannot delete `owner`
     *  `owner` and `admin` can Create/Read/Update/Delete channel
-    *  `owner` and `admin` can manage articles and article categories under the channel, or move articles to other categories
-    *  the `editor` can `Update/Delete` his own articles and can `create` articles or categories
-    *  the `editor` and `member` can `Create/Read` all the articles and categories
+    *  `owner` and `admin` can Create/Read/Update/Delete articles/categories, or move articles to other categories
+    *  the `editor` can `Update/Delete` his own articles and can `create` articles/categories
+    *  the `editor` and `member` can `Create/Read` all the articles/categories
     *  the `guest` can only read public articles of the channel
     *  inheritance relationship is: guest -> member -> editor -> admin -> owner
 
